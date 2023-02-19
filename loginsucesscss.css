@@ -1,0 +1,30 @@
+.content
+{
+width:500px;
+height:500px;
+margin:auto auto auto auto;
+
+}
+#logo
+{
+background-color:	#1E90FF;
+	width:500px;
+	height:100px;
+	border:1px solid #1E90FF;
+}
+#logo1
+{
+width:500px;
+height:400px;
+border:1px solid black;
+}
+#logo2
+{
+margin:auto auto auto auto;
+}
+#form
+{
+font-size:30px;
+font-weight: bold;
+}
+

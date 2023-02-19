@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>login</title>
+<style>
+	
+.content
+{
+width:500px;
+height:680px;
+margin:auto auto auto auto;
+
+}
+p{
+	color: #1E90FF;
+	
+
+}
+
+h2{
+	color: red;
+    padding: 20px;
+    font-family: sans-serif;
+}
+h5{
+	color:chartreuse;
+	text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+input#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+    background-color: #fff;
+    box-shadow: inset 1px 1px 5px;
+}
+#logo
+{
+background-color:	#1E90FF;
+	width:500px;
+	height:100px;
+	border:1px solid #1E90FF;
+}
+#logo1
+{
+width:500px;
+height:400px;
+border:1px solid black;
+}
+#logo2
+{
+margin:auto auto auto auto;
+}
+#form
+{
+font-size:30px;
+font-weight: bold;
+}
+
+
+</style>
+<script>
+    function validateform(){  
+    var name=document.myform.name.value;  
+    var password=document.myform.password.value;  
+      
+    if (name=="abhishek" && password=="123456")
+	{  
+      alert("Login Successfully");  
+      return true;  
+}
+ else
+{
+ alert("enter the valid details")
+ return false;
+}
+ 
+  
+    }  
+
+
+</script>
+
+
+
+
+
+
+<body>
+	<div class="content">
+	<div class="content" id="logo">
+
+<img align="left" src="images/back.png" width="100" height="105" >
+<h2> JIET GROUP OF INSTITUTIONS</h2>
+<h5> MENTORED BY ACADEMICIANS,DRIVEN BY VALUES..</h5>
+</div>
+<div class="content" id="logo1">
+<h2 style=text-align:center;><u>LOGIN TO ACESS</u></h2>
+	
+<form name ="myform" action ="protopolio.html" onsubmit="return validateform();">
+	<table style="margin-left:auto;margin-right:auto;margin-top:auto;padding-top:12px;">
+		<tr>
+			<td><b>
+				Name:
+			</b></td>
+
+			<td>
+				
+				<input type="text"  name="name">
+			</td>
+		</tr>
+<tr>
+<br> 
+<td>
+<br><b>
+             Password:
+			</b></td>
+
+			<td>
+<br>
+				<input type="password" name="password">
+			</td>
+		</tr>
+	</table>
+<br>
+ <div style="text-align:center">
+                <button>login</button>
+              </div>
+<br>
+
+ <div style="text-align:center">
+                <button><a href="file:///C:/Users/Abhishek%20singh/Desktop/html/ragistration%20form/finalreg.html" target="_blank">Ragistration</a></button>
+              </div>
+</form> 
+<br>
+<br>
+<br>
+<p style=text-align:center;>NH-65, Pali Road, Mogra, Jodhpur - 342802(Raj.)
+PHONE : 0291- 2868152/53, E-mail: info@jietjodhpur.ac.in</p>
+
+</div>
+
+
+</body>
+</head>
+</html>

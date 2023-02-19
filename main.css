@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Ubuntu:ital,wght@0,500;0,700;1,500&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background: burlywood;
+   
+    padding: 30px 0;
+    transition: all 0.3s ease;
+    font-family: 'ubuntu' ,sans-serif;
+}
+.navbar .logo a{
+
+    font-size: 35px;
+    font-weight: 500px;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+     
+}
+.navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+
+      
+
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.home{
+    display: flex;
+    background: url("images/background5.jpeg") repeat-y ;
+    height: 100vh; 
+    background-size: cover;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'ubuntu',sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600px;
+    margin-left: -3px;
+
+
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+
+
+}
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+
+.navbar .logo a span{
+    color: cornflowerblue;
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navbar .logo a span{
+    color: chartreuse;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+.menu-btn{
+    color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+.home .home-content a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: #fff;
+    background: none;
+}
+
+
+
+.facebook{
+    background: blue;
+    color: white;
+    right: 0px;
+    top: 20%;
+    padding: 10px 15px;
+    
+    border: none;
+    width: 120px;
+}
+.google{
+    background: aqua;
+    color: white;
+    right: 0px;
+    top: 25%;
+    padding: 10px 15px;
+    width: 120px;
+   
+    border: none;
+}
+.twitter{
+    background: white;
+    color: black;
+    right: 0px;
+    top: 25%;
+    padding: 10px 15px;
+   
+    border: none;
+    width: 120px;
+}
+.s-links{
+    position: fixed;
+    width: 120px;
+    top: 20%;
+    right: 0px;
+}
+.s-links button{
+    margin-bottom: 10px;
+}
+
+
+   
+    
+
+
+
+
+
+
+section{
+    padding: 100px 0;
+}
+.about{
+    font-family: 'Poppins',sans-serif;
+}
+.about .title{
+    text-align: center;
+    position: relative;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+
+}
+.about .about-content .left img{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+.about .title::before{
+    content: "";
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    background: #111;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.about .title::after{
+    content: "Who i am";
+    position: absolute;
+    padding: 5px;
+    font-size: 20px;
+    background:#fff;
+    bottom: -12px;
+    left: 50%;
+    color: crimson;
+    transform: translateX(-50%);
+
+}
+.about .about-content .left{
+    width: 45%;
+
+}
+.about .about-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.about .about-content .right{
+    width: 55%;
+
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+.about .about-content .right .text span{
+    color: crimson;
+
+}
+.about .about-content .right p{
+    text-align: justify;
+}
+.about .about-content .right a{
+   display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+.about .about-content .right a:hover{
+    color: crimson;
+    background: none;
+}
+h2{
+    margin-bottom: 2rem;
+
+}
+section{
+    padding: 100px 0;
+}
+.about, .teams{
+    font-family: 'Poppins',sans-serif;
+}
+.about .about-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,100;1,300&family=Ubuntu:ital,wght@0,500;0,700;1,500&display=swap');
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+}
+.container{
+    max-width: 1170px;
+    
+    margin: auto;
+}
+ul{
+    list-style: none;
+}.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+@media(.max-width:547px){
+    .footer-col{
+        width: 50%;
+       
+    }
+}
+@media(.max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+.container{
+    width: 1170px;
+    display: flex;
+    margin: auto;
+}
+.container-items{
+    flex-basis: 32%;
+    margin: 1%;
+    padding: 10px;
+    height: 300px;
+    position: relative;
+}
+.container-items img{
+width: 100%;
+height: 300px;
+}
+.content{
+width: 100%;
+position: absolute;
+top: 0px;
+display: none;
+font-size: 15px;
+left: 0px;
+height: 300px;
+background: lightblue;
+}
+.container-items:hover .content{
+display: block;
+}
+.phoneicon{
+    position: fixed;
+    top: 40%;
+    right: 0%;
+    right: 30px;
+   padding-top: 20px;
+    display: flex;
+  
+    flex-direction: column;
+}
+.phone{
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 50px;
+    height: 50px;
+    background: blue;
+    
+}
+.wp{
+    width: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    border-radius: 50%;
+    line-height: 50px;
+    height: 50px;
+    background:green;
+}
+.contact-left{
+    flex-basis: 35%;
+}
+.contact-right{
+    flex-basis: 60%;
+    margin-top: 250px;
+}
+.contact-left p{
+   margin-top: 30px;
+}
+.contact-left p i{
+    color: #ff004f;
+    margin-right: 15px;
+    font-size: 25px;
+
+}
+.social-icon{
+    margin-top: 30px;
+}
+.social-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icon a:hover{
+    color: #ff004f;
+    transform: translateX(-5px);
+}
+.btn .btn2{
+    display: block;
+    background: #ff004f;
+    margin-top: 20px;
+    background: blue;
+}
+.contact-right form{
+    width: 100%;
+}
+form input,form textarea{
+    width: 100%;
+    border: 0px;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #ffff;
+    font-size: 18px;
+    border-radius: 6px;
+
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+marquee{
+    color: blue;
+    transition: all 0.3s ease;
+}
